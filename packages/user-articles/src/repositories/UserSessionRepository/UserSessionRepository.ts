@@ -1,4 +1,4 @@
-import { CreateUserSessionInput, UserSession } from '../types/userSession';
+import { CreateUserSessionInput, UserSession } from '../../types/userSession';
 
 export default class UserSessionRepository {
   private records: Array<UserSession>;

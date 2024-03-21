@@ -1,4 +1,4 @@
-import { CreateUserInput, User } from '../types/user';
+import { CreateUserInput, User } from '../../types/user';
 
 export default class UserRepository {
   private records: Array<User>;

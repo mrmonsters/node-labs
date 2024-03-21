@@ -1,5 +1,5 @@
-import { Article, CreateArticleInput, Visibility } from '../types/article';
-import { UserSession } from '../types/userSession';
+import { Article, CreateArticleInput, Visibility } from '../../types/article';
+import { UserSession } from '../../types/userSession';
 
 export default class ArticleRepository {
   private records: Array<Article>;
